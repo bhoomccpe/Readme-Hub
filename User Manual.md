@@ -45,3 +45,13 @@ Below the console, there are three buttons:
 - **Stop:** Stops the calibration process.
 - **Clear:** Clears the console output for better readability.
 
+## Subscription
+
+In the subscription section, users can monitor the ongoing calibration by ticking the subscription checkbox. Once the checkbox is ticked, users must select their name in the Name's selector. If the user's name is missing, the Calibrator Bot setup in Microsoft Teams must be completed first, which can be done by following this guide.
+
+The subscription works through Teams by sending notifications in the form of chat messages via the chatbot in Teams called "Calibrator Bot".
+
+Notifications are sent to the user at two key moments:
+
+1. At the beginning of the calibration.
+2. At the end of the calibration.
