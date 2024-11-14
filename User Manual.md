@@ -9,14 +9,14 @@ The detailed installation guide is available [here](https://github.com/bhoomccpe
 
 
 ## Overview
-![Calibration Window](image-resource/CETA-CAL-Overview.png)
+![Calibration Window](image-resource/CETA-Cal-Picture-01.png)
 
 *Figure 1: The Calibration Window in CETA CAL.*
 
 This is the Calibration window in CETA CAL. To launch the Automation Calibration Window, first select the type of calibration (negative or positive). Then, in the red box, click the **"Calibrate"** button to proceed.
 
 ## Calibration Automation Overview
-![Calibration Window](image-resource/CETA-Cal-Picture-01.png)
+![Calibration Window](image-resource/CETA-Cal-Picture-02.png)
 
 *Figure 2: The Calibration Automation Window.*
 
@@ -29,7 +29,7 @@ The software consists of three main sections:
 3. **Subscription Menu**: Allows users to manage subscriptions related to calibration events.
 
 ## Calibration Data Section
-![Calibration Window](image-resource/CETA-Cal-Picture-02.png)
+![Calibration Window](image-resource/CETA-Cal-Picture-03.png)
 
 *Figure 3: The Calibration Automation Window: Calibration Data.*
 
