@@ -13,7 +13,7 @@ The detailed installation guide is available [here](https://github.com/bhoomccpe
 
 
 ## Overview
-This is the Calibration window in CETA CAL. To launch the Automation Calibration Window, first select the type of calibration (negative or positive). Then, click the **"Calibrate"** button to proceed.
+This is the Calibration window in CETA CAL. To launch the Automation Calibration Window, first select the type of calibration (negative or positive). Then, in the red box, click the **"Calibrate"** button to proceed.
 
 ![Calibration Window](image-resource/CETA-CAL-Overview.png)
 
