@@ -21,6 +21,7 @@ This is the Calibration window in CETA CAL. To launch the Automation Calibration
 ## Calibration Automation Overview
 ![Calibration Window](image-resource/CETA-Cal-Picture-01.png)
 *Figure 1: The Calibration Automation Window.*
+
 This is the Calibration Automation Window. When this window is launched, the software will automatically detect the ports for the CETA Device and Calibrator. To start or stop the automatic detection, the user can click the **"Start/Stop Port Refreshing"** button. This button will toggle its state automatically based on the current action.
 
 The software consists of three main sections:
