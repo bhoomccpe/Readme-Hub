@@ -158,7 +158,6 @@ public bool IsCalibrateButtonActivate
 }
 private bool IsPositiveOrNegativeSelect()
 {
-    Debug.WriteLine("Status of Calibrate button: " + (IsNegativeCalibrationChecked || IsPositiveCalibrationChecked));
     return IsNegativeCalibrationChecked || IsPositiveCalibrationChecked;
 }
 #endregion
