@@ -1,5 +1,5 @@
-# Implementation of C# Library (DLL) into the Project
-
+# Implementation of C# Library (DLL) into CETA Cal Project
+The implementation guideline of CETA_Calib DLL to CETA Cal project for enable the automation feature.
 ## Overview
 
 This guide outlines the process of implementing a C# library (DLL) into the CETA Cal project. Specifically, it details the modifications required in the `CalibrationDataViewModel` class and integration steps for new commands and logic in the calibration workflow.
