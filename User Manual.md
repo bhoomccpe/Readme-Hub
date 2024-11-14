@@ -1,7 +1,3 @@
-User Manual
-
-
-
 # Calibration Automation Library User Manual
 
 ## Introduction
