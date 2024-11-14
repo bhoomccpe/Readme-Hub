@@ -24,7 +24,7 @@ The software consists of three main sections:
 
 1. **Calibration Data Section**: Displays relevant calibration information.
 2. **Automation Section**: Shows real-time logs and outputs during the calibration process.
-3. **Subscription Menu**: Allows users to manage subscriptions related to calibration events.
+3. **Subscription Section**: Allows users to manage subscriptions related to calibration events.
 
 ## Calibration Data Section
 ![Calibration Window](image-resource/CETA-Cal-Picture-03.png)
