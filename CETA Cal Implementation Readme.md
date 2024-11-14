@@ -6,7 +6,7 @@ This guide outlines the process of implementing a C# library (DLL) into the CETA
 
 ## Implementation Process
 
-Add **CETA\_Calib** reference from Automation DLL to **CETA Cal** project
+Add `CETA\_Calib` reference from Automation DLL to `CETA Cal` project
 
 ### Files to Modify
 
