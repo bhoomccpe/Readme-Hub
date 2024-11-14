@@ -23,7 +23,7 @@ This is the Calibration Automation Window. When this window is launched, the sof
 The software consists of three main sections:
 
 1. **Calibration Data Section**: Displays relevant calibration information.
-2. **Automation Console Output**: Shows real-time logs and outputs during the calibration process.
+2. **Automation Section**: Shows real-time logs and outputs during the calibration process.
 3. **Subscription Menu**: Allows users to manage subscriptions related to calibration events.
 
 ## Calibration Data Section
@@ -32,3 +32,16 @@ The software consists of three main sections:
 *Figure 3: The Calibration Automation Window: Calibration Data.*
 
 This section will show the retrieved data from the CETA CAL Calibration Window. This data will be passed to the automation calibration library during the calibration process. The data will update every time the following selector boxes change: Calibrator, Pot, and CETA Port selectors. Finally, once the calibration is completed without any failures, the data will be updated and passed to the CETA CAL Calibration Page.
+
+## Automation Section
+![Calibration Window](image-resource/CETA-Cal-Picture-04.png)
+*Figure 4: The Calibration Automation Window: Automation Section.*
+
+From the image above, the Automation Console Output section displays real-time logs and outputs during the calibration process. The circle indicator in the output console represents the current status of the process. This indicator changes color according to the event, and a legend explaining the colors is located beside the console in the top-right corner.
+
+Below the console, there are three buttons:
+
+- **Start:** Initiates the calibration process.
+- **Stop:** Stops the calibration process.
+- **Clear:** Clears the console output for better readability.
+
