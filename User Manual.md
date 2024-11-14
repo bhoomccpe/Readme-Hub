@@ -16,7 +16,7 @@ The detailed installation guide is available [here](https://github.com/bhoomccpe
 This is the Calibration window in CETA CAL. To launch the Automation Calibration Window, first select the type of calibration (negative or positive). Then, in the red box, click the **"Calibrate"** button to proceed.
 
 ![Calibration Window](image-resource/CETA-CAL-Overview.png)
-
+*Figure 1: The Calibration Window in CETA CAL.*
 ## Calibration Automation Overview
 This is the Calibration Automation Window. When this window is launched, the software will automatically detect the ports for the CETA Device and Calibrator. To start or stop the automatic detection, the user can click the **"Start/Stop Port Refreshing"** button. This button will toggle its state automatically based on the current action.
 
