@@ -7,12 +7,12 @@ User Manual
 ## Introduction
 Welcome to the **Calibration Automation Library** User Manual. This library is designed to automate the process of calibration while providing seamless monitoring and interaction through Microsoft Teams. The purpose of this manual is to guide you through the usage, structure, and functionality of the library.
 
----
+
 
 ## Installation
 The detailed installation guide is available [here](https://github.com/bhoomccpe/Readme-Hub/blob/main/CETA%20Cal%20Implementation%20Readme.md). Follow the steps outlined to set up the library and its dependencies.
 
----
+--
 
 ## Overview
 This is the Calibration window in CETA CAL. To launch the Automation Calibration Window, first select the type of calibration (negative or positive). Then, click the **"Calibrate"** button to proceed.
