@@ -66,3 +66,7 @@ Notifications are sent to the user at two key moments:
 In the picture above, all notifications from the start of the calibration to its completion are displayed. Initially, the Calibrator Bot sends a calibration initiation message containing the calibration name, calibrator model, and process name. Additionally, it includes a calibration card with more detailed information about the calibration, such as the calibration ID, current status, estimated process ending time, and more.
 
 When the calibration is finished, regardless of whether it is completed successfully or ends with an error, the bot will send an ending message to the user as well.
+
+## Conclusion
+
+The Calibration Automation Library enhance the calibration process by integrating automated workflows, real-time monitoring, and Microsoft Teams notifications. With its design and features, this library simplifies calibration management and ensures accuracy and efficiency in every step. Whether tracking calibration progress, managing data, or receiving timely notifications, the library provides a comprehensive solution to meet your calibration needs.
