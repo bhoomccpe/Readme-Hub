@@ -47,7 +47,7 @@ Below the console, there are three buttons:
 
 ## Subscription
 ![Calibration Window](image-resource/CETA-Cal-Picture-05.png)
-*Figure 5: The Calibration Automation Window: Subscription Section.*
+\n*Figure 5: The Calibration Automation Window: Subscription Section.*
 
 In the subscription section, users can monitor the ongoing calibration by ticking the subscription checkbox. Once the checkbox is ticked, users must select their name in the Name's selector. If the user's name is missing, the Calibrator Bot setup in Microsoft Teams must be completed first, which can be done by following this guide.
 
