@@ -60,7 +60,7 @@ Notifications are sent to the user at two key moments:
 2. At the end of the calibration.
 
 ## Notification
-
+![Calibration Window](image-resource/CETA-Cal-Picture-06.png)
 *Figure 6: Calibrator Chatbot Notification via Microsoft Teams.*
 
 In the picture above, all notifications from the start of the calibration to its completion are displayed. Initially, the Calibrator Bot sends a calibration initiation message containing the calibration name, calibrator model, and process name. Additionally, it includes a calibration card with more detailed information about the calibration, such as the calibration ID, current status, estimated process ending time, and more.
