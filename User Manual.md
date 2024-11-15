@@ -45,7 +45,7 @@ Below the console, there are three buttons:
 - **Stop:** Stops the calibration process.
 - **Clear:** Clears the console output for better readability.
 
-## Subscription
+## Subscription Section
 ![Calibration Window](image-resource/CETA-Cal-Picture-05.png)
 
 *Figure 5: The Calibration Automation Window: Subscription Section.*
@@ -58,3 +58,11 @@ Notifications are sent to the user at two key moments:
 
 1. At the beginning of the calibration.
 2. At the end of the calibration.
+
+## Notification
+
+*Figure 6: Calibrator Chatbot Notification via Microsoft Teams.*
+
+In the picture above, all notifications from the start of the calibration to its completion are displayed. Initially, the Calibrator Bot sends a calibration initiation message containing the calibration name, calibrator model, and process name. Additionally, it includes a calibration card with more detailed information about the calibration, such as the calibration ID, current status, estimated process ending time, and more.
+
+When the calibration is finished, regardless of whether it is completed successfully or ends with an error, the bot will send an ending message to the user as well.
