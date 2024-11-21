@@ -43,6 +43,9 @@ Add the "Calibration button" and "Check boxes" under the `ScrollViewer` section 
 Add the following code under a new `#region Automation` to implement the commands and methods for the calibration automation feature.
 
 ```csharp
+using CETA_Calib.Model;
+using CETA_Cal.GUI.AutomationCalibration;
+
 #region Automation
 public ICommand OpenCalibratorAutomationViewCommand { get; }
 
