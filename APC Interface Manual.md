@@ -1,3 +1,9 @@
+## Short Note
+To easily communicate with APC 
+- Lauch Communication Setting
+- Set Module to "MecoTrans Ascii Protokoll"
+- Set Baud Rate to "115200"
+- Command must begin with `@` (Hex character `40`) following by `command` and end with line feed `<CR>` (Hex `0D`)  
 ## The MecoTrans ASCII Protocol
 
 The protocol has two forms. Both forms exist side by side and can be used in combination. The Mecotrans protocol is only available on AKS devices with a graphical user interface. It is a pure ASCII protocol, in which characters/chains ("commands") are sent and received in plain text using a terminal program or proprietary controls. Upper and lowercase letters are not relevant. `<CR>` (ASCII character 13dec) is the only non-readable control character used, while everything else is readable.
