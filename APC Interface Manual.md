@@ -1,4 +1,4 @@
-The MecoTrans ASCII Protocol
+## The MecoTrans ASCII Protocol
 
 The protocol has two forms. Both forms exist side by side and can be used in combination. The Mecotrans protocol is only available on AKS devices with a graphical user interface. It is a pure ASCII protocol, in which characters/chains ("commands") are sent and received in plain text using a terminal program or proprietary controls. Upper and lowercase letters are not relevant. `<CR>` (ASCII character 13dec) is the only non-readable control character used, while everything else is readable.
 
@@ -240,7 +240,6 @@ Case sensitivity is not relevant. Pressure values are always in the unit configu
 
 - **`ReadUnitFactor`**  
   Returns the unit factor of the current unit in millibar per unit.
-  ### Commands and Descriptions:
 
 - **`SetUnit:{Unit}`**  
   Changes the current unit. Some operations or events may override this setting if associated with a unit change. Display/output format remains unchanged. Units must match the range settings.  
