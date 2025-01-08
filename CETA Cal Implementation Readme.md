@@ -98,6 +98,7 @@ private CalibrationData MapAutomationCalibratorModel(ObservableCollection<Calibr
         HoldingTime = ProcessModel.HoldingTime,
         UpwardCycleCount = ProcessModel.UpCount,
         DownwardCycleCount = ProcessModel.DownCount,
+        Sensor = Sensor.ToString()
     };
 
     if (calibrationData.MaxPressure != calibrationData.MinPressure)
