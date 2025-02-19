@@ -43,8 +43,8 @@
                 }
             });
         }
-// ------- Calibrator -----------------
-public string DetectCalibrator(string calibratorName) 
+        // ------- Calibrator -----------------
+        public string DetectCalibrator(string calibratorName) 
         {
             List<string> portNames = serialPortService.GetFilteredPortNames();
             _calibrator = CalibratorModelFactory.GetModel(calibratorName);
