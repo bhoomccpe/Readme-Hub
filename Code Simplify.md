@@ -181,4 +181,71 @@
                 serialPortService.CloseConnection();
             }
         }
+
+    internal class CPC2000: ICalibratorModel
+    {
+        private readonly IUtilService _utilService = UtilService.Instance;
+        private readonly string messageEnd = "\r";
+        public bool IsTargetPressureAvailabe => true;
+        public bool IsGenratePressure => true;
+        public bool IsVentOptionAvailable => true;
+        public int MaxBaudRate => 57600;
+        public int ZeroInterval => 7;
+        public string Name => "CPC2000";
+        public PressureUnit DefaultPressureUnit { get; } = PressureUnit.Pa;
+        public double DeviceLimit { get; set; }
+        public string SetTargetPressurePercentage(double percentage)
+        {
+            return $":ps {percentage}{messageEnd}";
+        }
+        public string SetTargetPressureValue(double value){...}
+        public string SetPressureUnit(PressureUnit unit){...}
+        public string SetOperatingModeToControl(){...}
+        public string ReadPressureWithUnit(){...}
+        public string ReadTargetPressure(){...}
+        public string GetReadErrorCode(){...}
+        public string GetReadSuccessCode(){...}
+        public string SetZero()
+        {
+            return $":swm z{messageEnd}";
+        }
+        public string SetVenting()
+        {
+            return $":swm v{messageEnd}";
+        }
+        public string GetMessageEnd(){...}
+        public string[] GetInitialSetUpCommands(){...}
+        //CPC2000 will return value in form of:{command} {pressure};{unit};{status}.
+        public double GetFormattedPressureResponse(string response)
+        {
+            if (response.Contains(GetReadErrorCode()))
+               throw new CalibratorResponseErrorException("CPC2000 response with ERROR status code");
+
+            string formattedResponse = _utilService.SeparateString(by: ' ', response)[1];
+            formattedResponse = _utilService.SeparateString(by: ';', formattedResponse)[0];
+            return _utilService.StringToDouble(formattedResponse);
+        }
+    }
+```
+TTE
+```C#
+    internal class CalibratorModelFactory
+    {
+        public static ICalibratorModel GetModel(string modelName)
+        {
+            switch (modelName)
+            {
+                case CalibratorModelName.CPC2000:
+                    return new CPC2000();
+                case CalibratorModelName.APC4010:
+                    return new APC4010();
+                case CalibratorModelName.KAL100200:
+                    return new KAL100200();
+                case CalibratorModelName.DP300:
+                    return new DP300();
+                default:
+                    return new CPC2000();
+            }
+        }
+    }
 ```
