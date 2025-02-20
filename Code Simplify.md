@@ -1,4 +1,30 @@
 ```C#
+        var builder = WebApplication.CreateBuilder(args);
+        
+        // Add services to the container
+        builder.Services.AddControllers();
+        builder.Services.AddControllers().AddNewtonsoftJson();
+        
+        // Register MemoryCache
+        builder.Services.AddMemoryCache();
+        
+        // Add DbContext and configure Azure SQL connection
+        builder.Services.AddDbContext<AppDbContext>(options =>
+        {
+            var connectionString = builder.Configuration.GetConnectionString("AZURE_SQL_CONNECTIONSTRING");
+            options.UseSqlServer(new SqlConnection(connectionString));
+        });
+        
+        var app = builder.Build();
+        
+        app.UseHttpsRedirection();
+        app.UseAuthorization();
+        app.MapControllers();
+        app.Run();
+
+```
+t
+```C#
         public void StartMonitorDevice(string portname,string sensor, CancellationToken cancellationToken)
         {
             Task.Run(async () =>
